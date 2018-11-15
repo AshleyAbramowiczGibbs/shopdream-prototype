@@ -1,0 +1,4 @@
+class Api::PotentialPurchasesController < ApplicationController
+  before_action :authenticate_user
+  
+end
