@@ -24,5 +24,7 @@ Rails.application.routes.draw do
     get "/item_tags/:id" => "item_tags#show"
     patch "/item_tags/:id" => "item_tags#update"
     delete "/item_tags/:id" => "item_tags#destroy"
+
+    get "/asos_products" => "asos_produts#index"
   end
 end
