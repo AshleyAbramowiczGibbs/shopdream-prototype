@@ -1,0 +1,5 @@
+json.id potential_purchase.id
+json.image_url potential_purchase.image_url
+json.price potential_purchase.price
+json.description potential_purchase.description
+# json.date_purchased potential_purchase.date_purchases

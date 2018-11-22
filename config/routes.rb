@@ -13,16 +13,16 @@ Rails.application.routes.draw do
     get "/styles/:id" => "styles#show"
     delete "/styles/:id" => "styles#destroy"
 
-    get "/potentialpurchases" => "potentialpurchases#index"
-    post "/potentialpurchases" => "potentialpurchases#create" 
-    get "/potentialpurchases/:id" => "potentialpurchases#show"
-    patch "/potentialpurchases/:id" => "potentialpurchases#update"
-    delete "/potentialpurchases/:id" => "potentialpurchases#destroy"
+    get "/potential_purchases" => "potential_purchases#index"
+    post "/potential_purchases" => "potential_purchases#create" 
+    get "/potential_purchases/:id" => "potential_purchases#show"
+    patch "/potential_purchases/:id" => "potential_purchases#update"
+    delete "/potential_purchases/:id" => "potential_purchases#destroy"
 
-    get "/itemtags" => "itemtags#index"
-    post "/itemtags" => "itemtags#create" 
-    get "/itemtags/:id" => "itemtags#show"
-    patch "/itemtags/:id" => "itemtags#update"
-    delete "/itemtags/:id" => "itemtags#destroy"
+    get "/item_tags" => "item_tags#index"
+    post "/item_tags" => "item_tags#create" 
+    get "/item_tags/:id" => "item_tags#show"
+    patch "/item_tags/:id" => "item_tags#update"
+    delete "/item_tags/:id" => "item_tags#destroy"
   end
 end

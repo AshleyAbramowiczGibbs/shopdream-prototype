@@ -1,0 +1,1 @@
+json.partial! "potential_purchase.json.jbuilder", potential_purchase: @potential_purchase
