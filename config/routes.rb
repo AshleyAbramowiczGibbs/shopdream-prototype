@@ -26,5 +26,6 @@ Rails.application.routes.draw do
     delete "/item_tags/:id" => "item_tags#destroy"
 
     get "/asos_products" => "asos_produts#index"
+    get "/nearby" => "nearby#index"
   end
 end
