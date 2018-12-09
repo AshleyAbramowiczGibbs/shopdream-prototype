@@ -9,6 +9,7 @@ class Api::StylesController < ApplicationController
   def create
     @style = Style.new(
       image_url: params["image_url"],
+      image: params["image"],
       user_id: current_user.id
     )
     if @style.save
