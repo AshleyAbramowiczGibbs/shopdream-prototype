@@ -13,7 +13,7 @@ class Api::ItemTagsController < ApplicationController
       user_id: current_user.id
     )
     if @item_tag.save
-      render json: {message: "This is your NEW item_tag"}
+      render "show.json.jbuilder"
     else 
       render json: {errors: @item_tag.errors.full_messages}, status: 422
     end

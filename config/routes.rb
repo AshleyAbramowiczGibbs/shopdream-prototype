@@ -27,5 +27,6 @@ Rails.application.routes.draw do
 
     get "/asos_products" => "asos_produts#index"
     get "/nearby" => "nearby#index"
+
   end
 end
