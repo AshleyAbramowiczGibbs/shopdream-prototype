@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "shop.Dream",
+  "description": "Add images of styles to your shop.Dream account",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "css": ["style.css"],
+      "js": ["content.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "19 x 19 shopdream logo.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js",
+    "http://localhost:3000/api/",
+    "contextMenus",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
